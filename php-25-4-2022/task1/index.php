@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <body>
- 
-<?php  
+
+    <?php  
 $year = 2031;  
  
 if((0 == $year % 4) )
@@ -14,7 +15,8 @@ else
 {  
 echo "$year is not a Leap Year.";    
 }
-?> 
- 
+?>
+
 </body>
+
 </html>
