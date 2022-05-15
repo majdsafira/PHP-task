@@ -7,7 +7,10 @@
         temp: <input type="text" name="temp">
         <input type="submit">
     </form>
-<?php  
+
+
+<?php 
+ 
 @$temp1 = $_GET["temp"];
 if ($temp1 == null) {echo "please enter the temp";}
 else {
